@@ -5,7 +5,7 @@ function AboutMeCard({ name, role, bio, image }) {
       <img src={image} alt={name} className="w-32 h-32 mx-auto mb-4 rounded-md" />
       
       {/* Requirement: Name & Title */}
-      <h2 className="text-xl font-bold text-black">{name}</h2>
+      <h2 className="text-xl font-bold text-black">{name}!</h2>
       <p className="text-blue-600 font-semibold mb-2">{role}</p>
       
       {/* Requirement: Blurb */}
